@@ -1,5 +1,5 @@
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3.5,
+  slidesPerView: 2.5,
   spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
@@ -7,20 +7,16 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-var mediaQuery1 = window.matchMedia("(max-width: 767px)");
-var mediaQuery2 = window.matchMedia("(max-width: 600px)");
-
-function updateSwiperOptions() {
-  if (mediaQuery2.matches) {
+// Detect screen size and update swiper options
+var mediaQuery = window.matchMedia('(max-width: 600px)');
+function handleMediaQuery(mediaQuery) {
+  if (mediaQuery.matches) {
     swiper.params.slidesPerView = 1.5;
-  } else if (mediaQuery1.matches) {
-    swiper.params.slidesPerView = 2.5;
+    swiper.update();
   } else {
     swiper.params.slidesPerView = 3.5;
+    swiper.update();
   }
-  swiper.update();
 }
-
-// Call the function on page load and when the screen is resized
-updateSwiperOptions();
-window.addEventListener("resize", updateSwiperOptions);
+handleMediaQuery(mediaQuery); // Call once on page load
+mediaQuery.addListener(handleMediaQuery); // Call on screen size change

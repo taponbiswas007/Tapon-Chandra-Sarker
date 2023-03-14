@@ -581,6 +581,7 @@ li{
 
 .service-area{
     padding-top: 130px;
+    padding-bottom: 20px;
     background: linear-gradient(to right, rgb(7, 29, 7), rgba(14, 55, 4, 0.75));
 
 }
