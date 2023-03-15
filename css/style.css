@@ -9,7 +9,7 @@
 }
 body{
     font-family: sans-serif;
-    background: gray;
+    background: linear-gradient(to right, rgb(7, 29, 7), rgba(14, 55, 4, 0.75));
    
 }
 img{
@@ -294,7 +294,7 @@ li{
 .heroarea{
     background: linear-gradient(to right, rgb(7, 29, 7), rgba(14, 55, 4, 0.75));
     padding-top: 130px;
-   
+    padding-bottom: 20px;
     position: relative;
     
 }
@@ -526,7 +526,7 @@ li{
 .about-mainarea h1{
     text-align: center;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     color: #ffff;
     position: relative;
@@ -546,11 +546,11 @@ li{
 .about-mainarea h1::after{
     content: ' ';
     height: 5px;
-    background: black;
+    background: #47b51f;
     border-radius: 50%;
-    width: 21%;
+    width: 30%;
     top: 45px;
-    left: 39%;
+    left: 35%;
     position: absolute;
     
 }
@@ -606,7 +606,7 @@ li{
 .service-header h1{
     text-align: center;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     color: #ffff;
     position: relative;
@@ -626,11 +626,11 @@ li{
 .service-header h1::after{
     content: ' ';
     height: 5px;
-    background: black;
+    background: #47b51f;
     border-radius: 50%;
-    width: 21%;
+    width: 30%;
     top: 45px;
-    left: 39%;
+    left: 35%;
     position: absolute;
     
 }
@@ -670,7 +670,7 @@ li{
     
 }
 .moredetailsbtn{
-    background: blue;
+    background: #1d049c;
     color: #ffff;
     font-size: 13px;
     font-weight: 500;
@@ -709,7 +709,7 @@ li{
 .contactus-header h1{
     text-align: center;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     color: #ffff;
     position: relative;
@@ -729,11 +729,11 @@ li{
 .contactus-header h1::after{
     content: ' ';
     height: 5px;
-    background: black;
+    background: #47b51f;
     border-radius: 50%;
-    width: 21%;
+    width: 30%;
     top: 45px;
-    left: 39%;
+    left: 35%;
     position: absolute;
     
 }
@@ -753,8 +753,8 @@ li{
 }
 .contact-mainarea{
     padding: 20px;
-    background: blueviolet;
-    box-shadow: 0px 0px 10px 2px rgb(176, 107, 241);
+    background: #a82b24;
+    box-shadow: 0px 0px 10px 2px #a82b24;
     border-radius: 20px;
     
 }
@@ -764,7 +764,7 @@ li{
     color: aliceblue;
     text-align: center;
 }
-.contact-mainarea p{
+.askme p{
     font-size: 12px;
     font-weight: 500;
     color: antiquewhite;
@@ -799,16 +799,44 @@ li{
     font-weight: 500;
     margin-bottom: 0;
 }
+
+.social-messengerarea{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+}
+.social-messengerarea a{
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 10px;
+}
+.social-messengerarea a:hover{
+    color: antiquewhite;
+    font-size: 33px;
+}
 .sendmessagearea{
-    
+       
 
 }
 .sendmessage-mainarea{
     padding: 20px;
-    background: blueviolet;
-    box-shadow: 0px 0px 10px 2px rgb(176, 107, 241);
+    background: #a82b24;
+    box-shadow: 0px 0px 10px 2px #a82b24;
     border-radius: 20px;
+    backdrop-filter: blur(5px);
 
+}
+.askme{
+   
+    padding-bottom: 20px;
+}
+.askme h1{
+   font-size: 18px;
+   font-weight: 600;
+   color: #ffff;
+   text-align: center;
 }
 .name-section{
     display: flex;
@@ -845,6 +873,93 @@ li{
     background: none;
     border-bottom: 2px solid rgb(209, 205, 213);
 }
+
+.whatneeded-area{
+    padding-top: 20px; 
+}
+.whatneeded-area h1{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 20px;
+}
+.needed-option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.option{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 5px;
+}
+.option input{
+    height: 20px;
+    width: 20px;
+}
+.option label{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+.writemsg{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#msg{
+    border: none;
+    resize: none;
+    color: wheat;
+    font-size: 12px;
+    font-weight: 400;
+    width: 100%;
+    background: none;
+    border-bottom: 2px solid rgb(209, 205, 213);
+    margin-top: 15px;
+}
+.sendbtn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.sendmsg{
+    background: #1d049c;
+    color: #ffff;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+}
     /* <!-- ================================= -->
     <!--===== contact us section end==== -->
     <!-- ==================================--> */
+
+
+.copywrite{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background: linear-gradient(to right, rgb(7, 29, 7), rgba(14, 55, 4, 0.75));
+}
+.copywrite h1{
+    text-align: center;
+    color: #ffff;
+    font-size: 12px;
+    font-weight: 400;
+}
+.gotop a{
+    color: #ffff;
+    font-size: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}

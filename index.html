@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tapon chandra sarker</title>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
    <link rel="stylesheet" href="css/swiper.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -75,7 +77,7 @@
                         <li class="navitem"><a href="#about" class="navlink">about</a></li>
                         <li class="navitem"><a href="#services" class="navlink">services</a></li>
                         <li class="navitem"><a href="#portfolio" class="navlink">portfolio</a></li>
-                        <li class="navitem"><a href="#" class="navlink">contact</a></li>
+                        <li class="navitem"><a href="#contact" class="navlink">contact</a></li>
                     </ul>
                 </div>
 
@@ -130,10 +132,10 @@
                         </p>
 
                         <div class="socialmedia-section">
-                            <a href="#" class="socialmediaicon"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="#" class="socialmediaicon"><i class="fa-brands fa-twitter"></i></a>
-                            <a href="#" class="socialmediaicon"><i class="fa-brands fa-square-instagram"></i></a>
-                            <a href="#" class="socialmediaicon"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.facebook.com/tapon.biswas11/" target="_blank" class="socialmediaicon"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" target="_blank"  class="socialmediaicon"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" target="_blank"  class="socialmediaicon"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="#" target="_blank"  class="socialmediaicon"><i class="fa-brands fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="hero-woner-photoarea">
@@ -161,9 +163,9 @@
     <!--====== about section start======== -->
     <!-- ==================================-->
 
-    <section class="about-area" id="about">
+    <section class="about-area" id="about" >
     <div class="container">
-        <div class="about-mainarea">
+        <div class="about-mainarea" data-aos="zoom-in">
             <h1>about</h1>
             <p>As a professional Figma, PSD, and AI file to HTML converter, I have a keen eye for detail and a passion for delivering high-quality results. With my expertise in web development and design, I can convert your design files into fully functional and responsive HTML web pages.
 
@@ -190,7 +192,7 @@
 
     <section class="service-area" id="services">
     <div class="container">
-        <div class="service-mainarea swiper mySwiper responsiveservice">
+        <div class="service-mainarea swiper mySwiper responsiveservice" data-aos="zoom-in-up">
 
             <div class="service-header">
                 <h1>services</h1>
@@ -291,7 +293,7 @@
 
 
 
-        <div class="service-mainarea swiper mySwiper responmySwiper responsiveservice600">
+        <div class="service-mainarea swiper mySwiper responmySwiper responsiveservice600" data-aos="zoom-in-up">
 
             <div class="service-header">
                 <h1>services</h1>
@@ -394,7 +396,7 @@
 
 
 
-        <div class="service-mainarea swiper mySwiper responmySwiper515  responsiveservice515">
+        <div class="service-mainarea swiper mySwiper responmySwiper515  responsiveservice515" data-aos="zoom-in-up">
 
             <div class="service-header">
                 <h1>services</h1>
@@ -510,7 +512,7 @@
 
     <section class="service-area " id="portfolio">
     <div class="container">
-        <div class="service-mainarea swiper mySwiper responsiveservice">
+        <div class="service-mainarea swiper mySwiper responsiveservice" data-aos="zoom-in-right">
 
             <div class="service-header">
                 <h1>portfolio</h1>
@@ -608,7 +610,7 @@
 
         <!-- portfolio section for slide 767 start -->
 
-        <div class="service-mainarea swiper mySwiper responmySwiper responsiveservice600">
+        <div class="service-mainarea swiper mySwiper responmySwiper responsiveservice600" data-aos="zoom-in-right">
 
             <div class="service-header">
                 <h1>portfolio</h1>
@@ -708,7 +710,7 @@
 
         <!-- portfolio section for slide 515 start -->
 
-        <div class="service-mainarea swiper mySwiper responmySwiper515 responsiveservice515">
+        <div class="service-mainarea swiper mySwiper responmySwiper515 responsiveservice515" data-aos="zoom-in-right">
 
             <div class="service-header">
                 <h1>portfolio</h1>
@@ -822,18 +824,18 @@
     <!-- ==================================-->
 
 
-    <section class="contactus-area">
+    <section class="contactus-area " id="contact">
         <div class="container">
-            <div class="contactus-mainarea">
+            <div class="contactus-mainarea" data-aos="flip-left">
                 <div class="contactus-header">
                     <h1>contact me</h1>
                     <p>Any questtion or remarks? Just write me a message!</p>
                 </div>
                 <div class="row">
-                    <div class="contactarea col-lg-5 col-md-5 col-sm-5 col-12">
+                    <div class="contactarea col-lg-5 col-md-5 col-sm-5 col-12" >
                         <div class="contact-mainarea">
                             <h1>Contact Information</h1>
-                            <p>Fill up the form and I will get back to you within 24 hours</p>
+                            
                             <div class="contact-way">
                                 <i class="fa-solid fa-phone"></i>
                                 <a href="tel:+8801776806706">+8801776806706</a>
@@ -846,10 +848,22 @@
                                 <i class="fa-solid fa-location-dot"></i>
                                 <p>Saidpur, Nilphamari, Bangladesh</p>
                             </div>
+
+                            <div class="social-messengerarea">
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+                                <a href="#"><i class="fa-brands fa-viber"></i></a>
+                                <a href="#"><i class="fa-brands fa-line"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="sendmessagearea col-lg-7 col-md-7 col-sm-7 col-12">
+                    <div class="sendmessagearea col-lg-7 col-md-7 col-sm-7 col-12" >
                         <div class="sendmessage-mainarea">
+
+                            <div class="askme">
+                                <h1>ASK ME </h1> 
+                                <p>Fill up the form and I will get back to you within 24 hours</p>
+                            </div>
                             <div class="name-section">
                                 <label for="firstname" >
                                     First Name <br> 
@@ -874,6 +888,39 @@
                                     <input type="text" placeholder="+8801700000000">
                                 </label>
                             </div>
+
+                            <div class="whatneeded-area">
+                                <h1>What the of website do you need?</h1>
+
+                                <div class="needed-option">
+                                    <div class="option">
+                                        <input type="radio" id="webdesign" name="option">
+                                        <label for="webdesign">Web Design</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" id="webdev" name="option">
+                                        <label for="webdev">Web Development</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" id="logodesgin" name="option">
+                                        <label for="logodesgin">Logo Design</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" id="Other" name="option">
+                                        <label for="Other">Other</label>
+                                    </div>
+                                </div>
+                                <div class="writemsg">
+                                    <label for="msg">
+                                        Message
+                                    </label><br>
+                                    <textarea name="message" id="msg" placeholder="Write your message"></textarea>
+
+                                    <div class="sendbtn">
+                                        <button class="sendmsg">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -887,10 +934,20 @@
 
 
 
+<div class="copywrite">
+    <h1>Copyright © 2023 Tapon chandra sarker</h1>
+</div>
+
+<div class="gotop">
+    <a href="#home"><i class="fa-sharp fa-solid fa-arrow-up"></i></a>
+    
+</div>
 
 
-
-   
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 
     <script src="https://kit.fontawesome.com/3ce13bc0f0.js" crossorigin="anonymous"></script>
 
