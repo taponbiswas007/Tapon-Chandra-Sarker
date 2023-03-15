@@ -211,7 +211,15 @@
 
     /* hero section end */
 
-    
+    .responsiveservice{
+        display: none;
+    }
+    .responsiveportfolio{
+        display: none;
+    }
+    .responsiveservice600{
+        display: block;
+    }
     
 
 }
@@ -273,6 +281,15 @@
         width: 79%;
         left: 10%;
     }
-}
 
+   
+}
+@media (max-width:515px) {
+    .responsiveservice600{
+        display: none;
+    }
+    .responsiveservice515{
+        display: block;
+    }
+}
 

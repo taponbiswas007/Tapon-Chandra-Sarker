@@ -577,6 +577,13 @@ li{
 
 
     /* service section start */
+.responsiveservice{}
+.responsiveservice600{
+    display: none;
+}
+.responsiveservice515{
+    display: none;
+}
 
 
 .service-area{
