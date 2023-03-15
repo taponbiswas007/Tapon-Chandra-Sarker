@@ -18,6 +18,9 @@ img{
 a{
     text-decoration: none;
 }
+a:hover{
+    text-decoration: none;
+}
 li{
     list-style-type: none;
 }
@@ -683,3 +686,165 @@ li{
     text-decoration: none;
 }
     /* service section end */
+
+
+
+    /* <!-- ================================= -->
+    <!--===== contact us section start==== -->
+    <!-- ==================================--> */
+
+.contactus-area{
+    padding-top: 130px;
+    padding-bottom: 20px;
+    background: linear-gradient(to right, rgb(7, 29, 7), rgba(14, 55, 4, 0.75));
+
+}
+.contactus-mainarea{
+    box-shadow: 0px 0px 10px 2px rgba(110,250,75,0.75);
+    border-radius: 20px;
+    padding: 30px;
+}
+.contactus-header{}
+
+.contactus-header h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffff;
+    position: relative;
+    padding-bottom: 30px;
+    animation: contactus-header 2s ease;
+}
+@keyframes contactus-header{
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.contactus-header h1::after{
+    content: ' ';
+    height: 5px;
+    background: black;
+    border-radius: 50%;
+    width: 21%;
+    top: 45px;
+    left: 39%;
+    position: absolute;
+    
+}
+
+.contactus-header p{
+    font-size: 14px;
+    color: antiquewhite;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.contactarea{
+    
+   
+   
+
+}
+.contact-mainarea{
+    padding: 20px;
+    background: blueviolet;
+    box-shadow: 0px 0px 10px 2px rgb(176, 107, 241);
+    border-radius: 20px;
+    
+}
+.contact-mainarea h1{
+    font-size: 16px;
+    font-weight: 600;
+    color: aliceblue;
+    text-align: center;
+}
+.contact-mainarea p{
+    font-size: 12px;
+    font-weight: 500;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.contact-way i{
+    color: #ffff;
+    font-size: 14px;
+    border-radius: 50%;
+    padding: 7px;
+    background: #1d049c;
+    margin-right: 20px;
+}
+.contact-way{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.contact-way a{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.contact-way a:hover{
+    color: antiquewhite;
+}
+
+.contact-way p{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.sendmessagearea{
+    
+
+}
+.sendmessage-mainarea{
+    padding: 20px;
+    background: blueviolet;
+    box-shadow: 0px 0px 10px 2px rgb(176, 107, 241);
+    border-radius: 20px;
+
+}
+.name-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name-section label{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.name-section label input{
+    font-size: 12px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid rgb(209, 205, 213);
+}
+.contact-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;padding-top: 30px;
+}
+.contact-section label{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.contact-section label input{
+    font-size: 12px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid rgb(209, 205, 213);
+}
+    /* <!-- ================================= -->
+    <!--===== contact us section end==== -->
+    <!-- ==================================--> */
