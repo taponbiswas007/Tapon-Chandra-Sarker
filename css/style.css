@@ -1000,3 +1000,79 @@ li{
     bottom: 40px;
     right: 40px;
 }
+
+
+    /*-- ================================= -->
+    <!--===== sign in  section start==== -->
+    <!-- ==================================-*/
+
+.signin-area{
+    padding-top: 130px;
+    padding-bottom: 10px ;
+    background: #16d8ff;
+}
+
+.signin-mainarea{
+    padding: 20px;
+    box-shadow: 0px 0px 10px 2px rgba(238, 241, 237, 0.75);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 50%;
+}
+.signin-mainarea h1{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+.signin-mainarea label{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    width: 100%;
+}
+.signin-mainarea label input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 7px 15px;
+    margin-top: 15px;
+    width: inherit;
+    
+}
+.password{
+    width: 100%;
+    position: relative;
+}
+.password input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 7px 15px;
+    margin-top: 15px;
+    width: inherit;
+    margin-bottom: 30px;
+    
+}
+.password i{
+    position: absolute;
+    right: 10px;
+    bottom: 40px;
+    cursor: pointer;
+}
+.signin-mainarea a{
+    color: #ffef00;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: right;
+    
+
+}
+.signin-mainarea a:hover{
+    color: #ffd429;
+}
+.signin-mainarea a:focus{
+    text-decoration: none;
+    
+}
