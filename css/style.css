@@ -984,7 +984,7 @@ li{
 
 .copywrite{
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
     background: linear-gradient(to right, rgb(7, 29, 7), rgba(14, 55, 4, 0.75));
 }
 .copywrite h1{
@@ -1009,7 +1009,8 @@ li{
 .signin-area{
     padding-top: 130px;
     padding-bottom: 10px ;
-    background: #16d8ff;
+    /* background: #16d8ff; */
+    background: linear-gradient(to right, rgb(7, 29, 7), rgba(14, 55, 4, 0.75));
 }
 
 .signin-mainarea{
@@ -1017,7 +1018,7 @@ li{
     box-shadow: 0px 0px 10px 2px rgba(238, 241, 237, 0.75);
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.2);
-    width: 50%;
+    
 }
 .signin-mainarea h1{
     color: white;
@@ -1034,10 +1035,11 @@ li{
 .signin-mainarea label input{
     background: none;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(12, 240, 12);
     padding: 7px 15px;
     margin-top: 15px;
     width: inherit;
+    font-size: 13px;
     
 }
 .password{
@@ -1047,7 +1049,7 @@ li{
 .password input{
     background: none;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(12, 240, 12);
     padding: 7px 15px;
     margin-top: 15px;
     width: inherit;
@@ -1062,7 +1064,7 @@ li{
 }
 .signin-mainarea a{
     color: #ffef00;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     margin-top: 20px;
     text-align: right;
@@ -1075,4 +1077,72 @@ li{
 .signin-mainarea a:focus{
     text-decoration: none;
     
+}
+
+.cwsign{
+    /* background: #16d8ff; */
+}
+.signin-mainarea h2{
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffff;
+}
+.signin-mainarea h3{
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffff;
+    text-align: center;
+    position: relative;
+}
+.signin-mainarea h3::after{
+    content: ' ';
+    background: gray;
+    height: 2px;
+    border-radius: 5px;
+    width: 38%;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+}
+.signin-mainarea h3::before{
+    content: ' ';
+    background: gray;
+    height: 2px;
+    border-radius: 5px;
+    width: 38%;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+}
+.signinwith{
+    text-align: center;
+    padding: 20px 0;
+}
+.signinwith a:nth-child(1){
+    color: #ffff;
+    background: black;
+    border-radius: 50%;
+    padding: 5px 8px;
+    margin-right: 15px;
+    box-shadow: 0px 0px 10px 2px rgba(32, 158, 15, 0.75);
+}
+.signinwith a:nth-child(2){
+    color: #ffff;
+    background: black;
+    border-radius: 50%;
+    padding: 6px 7px;
+    box-shadow: 0px 0px 10px 2px rgba(32, 158, 15, 0.75);
+}
+
+.signup{
+    text-align: end;
+}
+.signupbtn{
+    color: #ffff;
+    border: none;
+    margin-bottom: 20px;
+    background: black;
+    border-radius: 30px;
+    padding: 10px 15px;
+    box-shadow: 0px 0px 10px 2px rgba(32, 158, 15, 0.75);
 }
